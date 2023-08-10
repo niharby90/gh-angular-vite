@@ -20,5 +20,4 @@ import { HeaderComponent } from './pages/header/header.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { 
-  base= 'https://niharby90.github.io/gh-angular-vite/'
 }
