@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CRM';
-  base = 'https://niharby90.github.io/gh-angular-vite/'
 }
