@@ -1,0 +1,24 @@
+<div class="container">
+  <div>
+<table class="table table-hover mt-3 ">
+  <thead>
+    <tr>
+      <td>Nombre</td>
+      <td>Apellidos</td>
+      <td>EMAIL</td>
+      <td>Movil</td>
+    </tr>
+  </thead>
+    <tbody>
+      <tr *ngFor="let person of listPerson">
+        <td>{{person.nombre}}</td>
+        <td>{{person.apellidos}}</td>
+        <td>{{person.email}}</td>
+        <td>{{person.movil}}</td>
+    </tbody>
+  </table>
+</div>
+<div *ngIf="listPerson.length == 0">
+  <h5 class="fw-lighter text-danger">No hay datos añadidos!.......</h5>
+</div>
+</div>
